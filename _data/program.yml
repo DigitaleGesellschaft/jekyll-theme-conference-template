@@ -1,1 +1,58 @@
-days: []
+days:
+  - name: Saturday
+    abbr: Sa
+    date: 2027-03-13
+    rooms:
+      - name: Main Hall
+        talks:
+          - name: Welcome to OpenCommons
+            time_start: "09:30"
+            time_end: "09:45"
+          - name: Who Owns the Cloud?
+            time_start: "09:45"
+            time_end: "10:45"
+          - name: Algorithms in Public Administration
+            time_start: "11:00"
+            time_end: "11:45"
+          - name: Lunch Break
+            time_start: "12:00"
+            time_end: "13:15"
+          - name: "Panel: The Future of Open Source Funding"
+            time_start: "13:15"
+            time_end: "14:30"
+      - name: Workshop Room
+        talks:
+          - name: "Hands-on: Self-Hosting for Communities"
+            time_start: "11:00"
+            time_end: "12:00"
+      - name: Studio
+        talks:
+          - name: Privacy by Design in Practice
+            time_start: "11:00"
+            time_end: "11:45"
+
+  - name: Sunday
+    abbr: Su
+    date: 2027-03-14
+    rooms:
+      - name: Main Hall
+        talks:
+          - name: Secure Messaging Explained
+            time_start: "10:00"
+            time_end: "10:45"
+          - name: Energy Footprint of AI
+            time_start: "11:00"
+            time_end: "11:45"
+          - name: Lightning Talks
+            time_start: "13:00"
+            time_end: "13:45"
+          - name: Closing & Outlook
+            time_start: "14:00"
+            time_end: "14:30"
+      - name: Workshop Room
+        talks:
+          - name: "Hands-on: Your First Accessibility Audit"
+            time_start: "10:00"
+            time_end: "11:30"
+      - name: Studio
+        talks: []
