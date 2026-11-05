@@ -1,6 +1,6 @@
 # Site
-title: ""
-description: ""
+title: OpenCommons 2027
+description: Two days on open technology and digital society
 preposition: "at"
 url: ""
 baseurl: ""
@@ -47,6 +47,28 @@ conference:
   lang: en
   show_errors: true  # disable in production
 
+  meta:
+    schema_org:
+      organizer:
+        name: OpenCommons Association
+        url: https://example.org
+      tickets:
+        url: https://example.org/tickets
+        availability: in_stock
+        price: "40.00"
+        priceCurrency: CHF
+
+  info:
+    bars:
+      - title: Call for Participation
+        color: primary
+        main_only: true
+        text: Submit your talk until **January 31**.
+
+  live:
+    streaming:
+      enable: true
+
   navigation:
     links:
       - name: Program
@@ -61,7 +83,28 @@ conference:
       - name: Location
         icon: geo-alt
         relative_url: /location/
+      - live: true
+      - name: About
+        icon: info-circle
+        menu:
+          - name: Code of Conduct
+            relative_url: /code-of-conduct/
+          - name: Contact
+            absolute_url: mailto:info@example.org
+
+    logo:
+      name: OpenCommons Association
+      img: logo.svg
+      url: https://example.org
 
   talks:
-    tracks: []
-    tags: []
+    tracks:
+      - name: Society
+        color: info
+      - name: Technology
+        color: success
+      - name: Workshop
+        color: warning
+    tags:
+      - name: No Recording
+        icon: camera-video-off-fill
