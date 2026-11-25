@@ -25,6 +25,7 @@ _talks/               one file per talk
 _speakers/            one file per speaker
 _rooms/               one file per room
 index.md              landing page
+404.md                page for missing addresses
 program/ talks/ speakers/ location/   overview pages
 assets/css/main.scss  custom styles
 assets/images/        logos, preview images
