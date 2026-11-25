@@ -67,6 +67,8 @@ _speakers/            one file per speaker
 _rooms/               one file per room
 index.md              landing page
 404.md                page for missing addresses
+live/index.md         live stream page
+manifest.json sw.js   installable app (PWA)
 program/ talks/ speakers/ location/   overview pages
 assets/css/main.scss  custom styles
 assets/images/        logos, preview images

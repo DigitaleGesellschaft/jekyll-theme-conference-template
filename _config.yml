@@ -64,10 +64,27 @@ conference:
         color: primary
         main_only: true
         text: Submit your talk until **January 31**.
+        links:
+          - name: Submit
+            absolute_url: https://example.org/cfp
 
   live:
     streaming:
       enable: true
+
+  pwa:
+    enable: true
+    icons:
+      - img: icons/icon-192.png
+        sizes: "192x192"
+        type: image/png
+      - img: icons/icon-512.png
+        sizes: "512x512"
+        type: image/png
+      - img: icons/maskable-512.png
+        sizes: "512x512"
+        type: image/png
+        purpose: maskable
 
   navigation:
     links:
@@ -101,10 +118,13 @@ conference:
     tracks:
       - name: Society
         color: info
+        icon: people-fill
       - name: Technology
         color: success
+        icon: cpu-fill
       - name: Workshop
         color: warning
+        icon: tools
     tags:
       - name: No Recording
         icon: camera-video-off-fill
